@@ -1,0 +1,1381 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+/* HEADER SECTION */
+#nav-bar header {
+    background-color: #eeeeee;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+}
+
+#nav-bar header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-bar header ul li {
+    font-size: 100%;
+    list-style: none;
+    display: flex;
+}
+
+#nav-bar header ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 12px 10.8vw;
+}
+
+#nav-bar header ul li a:hover {
+     background-color: #ccc;
+     cursor: pointer;
+}
+/*  */
+
+
+/* HOME SECTION */
+#home .marketing-by {
+    padding-left: 10%;
+    padding-top: 95px;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+}
+
+#home .marketing-by h1 {
+    font-size: 30px;
+}
+
+#home .marketing-by p {
+    padding-top: 25px;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+
+
+.image-and-text {
+    position: relative; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.image-and-text img {
+    position: relative;
+    width: 100%;
+}
+
+.image-and-text p {
+    position: absolute;
+    display: inline;
+    flex-direction: flex-end;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 22;
+    top: 22px;
+    right: 16px;
+    background-color: white;
+    padding:  15px 22px;
+    font-size: 14px;
+}
+
+.slide-bar {
+    position: relative;
+    background-color: gray;
+    width: 80%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: -3px 10% 0px 10%;
+}
+
+#home .slide-bar .left-right-button{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: left;
+    font-size: 15px;
+    gap: 93%;
+}
+
+#home .slide-bar .left-right-button .fa-arrow-left {
+    background-color: white;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 70%;
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+}
+
+#home .slide-bar .left-right-button .fa-arrow-left:hover {
+    background-color: #009688;
+    cursor: pointer;
+} 
+
+#home .slide-bar .left-right-button .fa-arrow-right {
+    display: flex;
+    background-color: white;
+    text-align: right;
+    align-items: right;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right: 50%;
+    margin-left: -145%;
+    padding: 5px;
+    border: none;
+    border-radius: 50%;
+}
+
+#home .slide-bar .left-right-button .fa-arrow-right:hover {
+    background-color: #009688;
+    cursor: pointer;
+} 
+
+#home .what-we-offer .offer {
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 15px;
+    font-size: 22px;
+}
+
+.what-we-offer .line {
+    background-color: #746767;
+    width: 160px;
+    height: 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.dbcp-all {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: none;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.dbcp-all .job {
+    justify-content: center;
+    font-size: 150%;
+}
+
+
+.dbcp-all .description {
+    padding-top: 18px;
+    font-size: 100%;
+    line-height: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dbcp-all .design {
+    background-color: #ccc;
+    padding: 30px 15px;
+    justify-content: center;
+}
+
+.dbcp-all .branding {
+    background-color:#9e9e9e;
+    padding: 30px 15px;
+    justify-content: center;
+}
+
+.dbcp-all .consultation {
+    background-color: rgb(46, 46, 46);
+    color: white;padding: 30px 15px;
+    justify-content: center;
+}
+
+.dbcp-all .promises {
+    background-color: black;
+    color: white;
+    padding: 30px 15px;
+    justify-content: center;
+}
+/*  */
+
+
+
+/* PLAN SECTION */
+.pricing-plans {
+    text-align: center;
+    justify-content: center;
+}
+
+.pricing-plans .pricing {
+    margin-top: 85px;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.pricing-plans .choose {
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-left: 8px;
+}
+
+.plans .basic-plan {
+    border: 0px solid gray;
+    font-size: 15px;
+}
+
+.plans .basic-plan:hover {
+    box-shadow: 0px 0px 25px rgb(78, 78, 78);
+}
+
+.plans .basic-plan .basic {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+.plans .basic-plan .gb10-storage {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 15px;
+}
+
+.plans .basic-plan .emails10 {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 15px;
+}
+
+.plans .basic-plan .domains10 {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 15px;
+}
+
+.plans .basic-plan .endless-support1 {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 15px;
+}
+
+.plans .basic-plan .per10-month {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 15px;
+}
+
+.plans .basic-plan .per10-month .dollar10 {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.plans .basic-plan .per10-month .per-month1 {
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.plans .button1 {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    background-color: #f0f0f0;
+}
+
+.plans .button1 a {
+    text-decoration: none;
+}
+
+.plans .button1 button {
+    background-color: green;
+    padding: 15px 25px ;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.plans .button1 button:hover {
+    color: black;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+
+
+.plans .pro-plan {
+    border: 0px solid gray;
+    font-size: 15px;
+}
+
+.plans .pro-plan:hover {
+    box-shadow: 0px 0px 25px rgb(78, 78, 78);
+}
+
+.plans .pro-plan .pro {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+}
+
+.plans .pro-plan .gb25-storage {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 15px;
+}
+
+.plans .pro-plan .emails25 {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 15px;
+}
+
+.plans .pro-plan .domains25 {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 15px;
+}
+
+.plans .pro-plan .endless-support2 {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 15px;
+}
+
+.plans .pro-plan .per25-month {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 15px;
+}
+
+.plans .pro-plan .per25-month .dollar25 {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.plans .pro-plan .per25-month .per-month2 {
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.plans .button2 {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    background-color: #f0f0f0;
+}
+
+.plans .button2 a {
+    text-decoration: none;
+}
+
+.plans .button2 button {
+    background-color: green;
+    padding: 15px 25px ;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.plans .button2 button:hover {
+    color: black;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+
+
+.plans .premium-plan {
+    border: 0px solid gray;
+    font-size: 15px;
+}
+
+.plans .premium-plan:hover {
+    box-shadow: 0px 0px 25px rgb(78, 78, 78);
+}
+
+.plans .premium-plan .premium {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+.plans .premium-plan .gb50-storage {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 15px;
+}
+
+.plans .premium-plan .emails50 {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 15px;
+}
+
+.plans .premium-plan .domains50 {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 15px;
+}
+
+.plans .premium-plan .endless-support3 {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 15px;
+}
+
+.plans .premium-plan .per50-month {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    font-size: 15px;
+}
+
+.plans .premium-plan .per50-month .dollar50 {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.plans .premium-plan .per50-month .per-month3 {
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.plans .button3 {
+    border: 1px solid gray;
+    padding: 25px 105px;
+    background-color: #f0f0f0;
+}
+
+.plans .button3 a {
+    text-decoration: none;
+}
+
+.plans .button3 button {
+    background-color: green;
+    padding: 15px 25px ;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.plans .button3 button:hover {
+    color: black;
+    background-color: #ccc;
+    cursor: pointer;
+}
+/*  */
+
+
+
+/* ABOUT SECTION */
+#about .who-we-are .we-are {
+    align-items: center;
+    text-align: center;
+    margin-top: 55px;
+    padding-bottom: 15px;
+    font-size: 22px;
+}
+
+.who-we-are .line {
+    background-color: #6b5c5c;
+    width: 160px;
+    height: 5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+#about .profiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 12%;
+    gap: 15px;
+    width: 77.8%;
+    margin-bottom: -10px;
+}
+
+#about .profiles img {
+    width: 100%;
+}
+
+#about .profiles .jane-profile {
+    box-shadow: 0px 2px 10px 5px #ccc;
+}
+
+#about .profiles .jane-about {
+    padding: 15px 17px;
+}
+
+#about .profiles .jane-about .name {
+    font-size: 20px;
+    padding-bottom: 18px;
+}
+
+#about .profiles .jane-about .position {
+    color: gray;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+#about .profiles .jane-about .info {
+    font-size: 13px;
+    padding-bottom: 18px;
+}
+
+#about .profiles .jane-about a {
+    text-decoration: none;
+}
+
+#about .profiles .jane-about button {
+    padding: 8px 10vw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ccc;
+    border: none;
+}
+
+#about .profiles .jane-about button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+#about .profiles .mike-profile {
+    box-shadow: 0px 2px 10px 5px #ccc;
+}
+
+#about .profiles .mike-about {
+    padding: 15px 17px;
+}
+
+#about .profiles .mike-about .name {
+    font-size: 20px;
+    padding-bottom: 18px;
+}
+
+#about .profiles .mike-about .position {
+    color: gray;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+#about .profiles .mike-about .info {
+    font-size: 13px;
+    padding-bottom: 18px;
+}
+
+#about .profiles .mike-about a {
+    text-decoration: none;
+}
+
+#about .profiles .mike-about button {
+    padding: 8px 10vw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ccc;
+    border: none;
+}
+
+#about .profiles .mike-about button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+#about .profiles .john-profile {
+    box-shadow: 0px 2px 10px 5px #ccc;
+}
+
+#about .profiles .john-about {
+    padding: 15px 17px;
+}
+
+#about .profiles .john-about .name {
+    font-size: 20px;
+    padding-bottom: 18px;
+}
+
+#about .profiles .john-about .position {
+    color: gray;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+#about .profiles .john-about .info {
+    font-size: 13px;
+    padding-bottom: 18px;
+}
+
+#about .profiles .john-about a {
+    text-decoration: none;
+}
+
+#about .profiles .john-about button {
+    padding: 8px 10vw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ccc;
+    border: none;
+}
+
+#about .profiles .john-about button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+/*  */
+
+
+
+/* CONTACT SECTION */
+#contact .contact-us-line .contact-us {
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 15px;
+    font-size: 22px;
+}
+
+#contact .contact-us-line .line {
+    background-color: #6b5c5c;
+    width: 120px;
+    height: 5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+
+.contact-info-send form {
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info-send label {
+    font-size: 15px;
+    padding-bottom: 2.5px;
+}
+
+.contact-info-send input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-left: 0.79%;
+    width: 101.1%;
+    height: 22px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.contact-info-send input:hover {
+    border: 1px solid black;
+}
+
+.contact-info-send .button {
+    padding: 8px 8px;
+    text-align: center;
+    width: 102.3%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    border-radius: none;
+}
+
+.contact-info-send .button:hover {
+    background-color: #ccc;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: none;
+}
+/*  */
+
+
+
+/* FOOTER SECTION */
+.footer {
+    background-color: #eeeeee;
+    height:290px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.footer .foot {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+
+.footer .to-the-top a span {
+    padding-left: 10px;
+}
+
+.footer .to-the-top a {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 11px 18px;
+    font-size: 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer .to-the-top a:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    color: black;
+} 
+
+
+.footer .footer-links .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.footer .footer-links .social-media a {
+   margin-left: 5px;
+}
+
+.footer .footer-links .social-media a:hover {
+    opacity: 0.5;
+}
+
+.footer .social-media a:hover{
+    cursor: pointer;
+}
+
+.footer .social-media .snapchat {
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    font-size: 20px;
+    background-color: black;
+    border: 1px solid black;
+    width: 25px;
+    height: 23px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+ .footer .powered {
+    color: black;
+    margin-top: 27px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer .powered a {
+        color: black;
+}
+
+.footer .powered a:hover {
+    cursor: pointer;
+    color: green;
+}   
+/*  */
+
+
+
+@media screen and (max-width: 480px) {
+
+    /* HEADER SECTION */
+    #nav-bar header {
+        background-color: #eeeeee;
+        width: 100%;
+        height: 31px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: fixed;
+        z-index: 99;
+    }
+    
+    #nav-bar header ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #nav-bar header ul li {
+        font-size: 85%;
+        list-style: none;
+        display: flex;
+    }
+    
+    #nav-bar header ul li a {
+        color: black;
+        text-decoration: none;
+        padding: 7px 8.3vw;
+    }
+    
+    #nav-bar header ul li a:hover {
+         background-color: #ccc;
+         cursor: pointer;
+    }
+
+    /*  */
+
+
+    /* HOME SECTION */
+    #home .marketing-by {
+        padding-left: 10%;
+        padding-top: 60px;
+    }
+
+    .image-and-text p {
+        position: absolute;
+        display: inline;
+        flex-direction: flex-end;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 22;
+        top: 22px;
+        right: 16px;
+        background-color: white;
+        padding:  12px 15px;
+        font-size: 10px;
+    }
+
+    .slide-bar {
+        width: 80%;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        margin: -3px 10% 0px 10%;
+    }
+    
+    #home .slide-bar .left-right-button{
+        font-size: 15px;
+        gap: 92%;
+    }
+    
+
+    .dbcp-all {
+        flex-direction: column;
+    }
+    /*  */
+    
+
+
+    /* PLAN SECTION */
+    .pricing-plans .pricing {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .pricing-plans .choose {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .plans {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
+    }    
+    
+    .plans .basic-plan .basic {
+        padding: 15px 105px;
+    }
+    
+    .plans .basic-plan .gb10-storage {
+        padding: 15px 105px;
+    }
+    
+    .plans .basic-plan .emails10 {
+        padding: 15px 105px;
+    }
+    
+    .plans .basic-plan .domains10 {
+        padding: 15px 105px;
+    }
+    
+    .plans .basic-plan .endless-support1 {
+        padding: 15px 105px;
+    }
+    
+    .plans .basic-plan .per10-month {
+        padding: 15px 105px;
+    }
+    
+    .plans .basic-plan .per10-month .dollar10 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .plans .button1 {
+        padding: 15px 105px;
+    }
+    
+    .plans .button1 button {
+        padding: 10px 25px ;
+        font-size: 15px;
+    }
+        
+    .plans .pro-plan .pro {
+        padding: 15px 105px;
+    }
+    
+    .plans .pro-plan .gb25-storage {
+        padding: 15px 105px;
+    }
+    
+    .plans .pro-plan .emails25 {
+        padding: 15px 105px;
+    }
+    
+    .plans .pro-plan .domains25 {
+        padding: 15px 105px;
+    }
+    
+    .plans .pro-plan .endless-support2 {
+        padding: 15px 105px;
+    }
+    
+    .plans .pro-plan .per25-month {
+        padding: 15px 105px;
+    }
+    
+    .plans .pro-plan .per25-month .dollar25 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+        
+    .plans .button2 {
+        padding: 15px 105px;
+    }
+    
+    .plans .button2 button {
+        padding: 10px 25px ;
+        font-size: 15px;
+    }    
+    
+    
+    
+    .plans .premium-plan .premium {
+        padding: 15px 105px;
+    }
+    
+    .plans .premium-plan .gb50-storage {
+        padding: 15px 105px;
+    }
+    
+    .plans .premium-plan .emails50 {
+        padding: 15px 105px;
+    }
+    
+    .plans .premium-plan .domains50 {
+        padding: 15px 105px;
+    }
+    
+    .plans .premium-plan .endless-support3 {
+        padding: 15px 105px;
+    }
+    
+    .plans .premium-plan .per50-month {
+        padding: 15px 105px;
+    }
+    
+    .plans .premium-plan .per50-month .dollar50 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+        
+    .plans .button3 {
+        padding: 15px 105px;
+    }
+    
+    .plans .button3 button {
+        padding: 10px 25px ;
+        font-size: 15px;
+    }
+    /*  */
+
+
+    /* ABOUT SECTION */
+    #about .who-we-are .we-are {
+        margin-top: 30px;
+        padding-bottom: 15px;
+        font-size: 22px;
+    }
+    #about .profiles {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    #about .profiles .jane-about button {
+        padding: 8px 30vw;
+    }
+
+    #about .profiles .mike-about button {
+        padding: 8px 30vw;
+    }
+
+    #about .profiles .john-about button {
+        padding: 8px 30vw;
+    }
+    /*  */
+
+
+
+    /* CONTACT SECTION */
+    #contact .contact-us-line .contact-us {
+        margin-top: 32px;
+        font-size: 22px;
+    }
+    /*  */
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+
+    /* HEADER SECTION */
+    #nav-bar header {
+        background-color: #eeeeee;
+        width: 100%;
+        height: 31px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: fixed;
+        z-index: 99;
+    }
+    
+    #nav-bar header ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #nav-bar header ul li {
+        font-size: 80%;
+        list-style: none;
+        display: flex;
+    }
+    
+    #nav-bar header ul li a {
+        color: black;
+        text-decoration: none;
+        padding: 7px 7.2vw;
+    }
+    
+    #nav-bar header ul li a:hover {
+         background-color: #ccc;
+         cursor: pointer;
+    }
+
+    /*  */
+
+
+    /* HOME SECTION */
+    .image-and-text p {
+        top: 10px;
+        right: 10px;
+        background-color: white;
+        padding:  12px 15px;
+        font-size: 10px;
+    }
+
+    .slide-bar {
+        width: 80%;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        margin: -3px 10% 0px 10%;
+    }
+    
+    #home .slide-bar .left-right-button{
+        font-size: 15px;
+        gap: 91%;
+    }
+
+    .dbcp-all {
+        flex-direction: column;
+    }
+    /*  */
+    
+
+
+    /* PLAN SECTION */
+    .pricing-plans .pricing {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .pricing-plans .choose {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .plans {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
+    }    
+    
+    .plans .basic-plan .basic {
+        padding: 15px 105px;
+    }
+    
+    .plans .basic-plan .gb10-storage {
+        padding: 15px 105px;
+    }
+    
+    .plans .basic-plan .emails10 {
+        padding: 15px 105px;
+    }
+    
+    .plans .basic-plan .domains10 {
+        padding: 15px 105px;
+    }
+    
+    .plans .basic-plan .endless-support1 {
+        padding: 15px 105px;
+    }
+    
+    .plans .basic-plan .per10-month {
+        padding: 15px 105px;
+    }
+    
+    .plans .basic-plan .per10-month .dollar10 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .plans .button1 {
+        padding: 15px 105px;
+    }
+    
+    .plans .button1 button {
+        padding: 10px 25px ;
+        font-size: 15px;
+    }
+        
+    .plans .pro-plan .pro {
+        padding: 15px 105px;
+    }
+    
+    .plans .pro-plan .gb25-storage {
+        padding: 15px 105px;
+    }
+    
+    .plans .pro-plan .emails25 {
+        padding: 15px 105px;
+    }
+    
+    .plans .pro-plan .domains25 {
+        padding: 15px 105px;
+    }
+    
+    .plans .pro-plan .endless-support2 {
+        padding: 15px 105px;
+    }
+    
+    .plans .pro-plan .per25-month {
+        padding: 15px 105px;
+    }
+    
+    .plans .pro-plan .per25-month .dollar25 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+        
+    .plans .button2 {
+        padding: 15px 105px;
+    }
+    
+    .plans .button2 button {
+        padding: 10px 25px ;
+        font-size: 15px;
+    }    
+    
+    
+    
+    .plans .premium-plan .premium {
+        padding: 15px 105px;
+    }
+    
+    .plans .premium-plan .gb50-storage {
+        padding: 15px 105px;
+    }
+    
+    .plans .premium-plan .emails50 {
+        padding: 15px 105px;
+    }
+    
+    .plans .premium-plan .domains50 {
+        padding: 15px 105px;
+    }
+    
+    .plans .premium-plan .endless-support3 {
+        padding: 15px 105px;
+    }
+    
+    .plans .premium-plan .per50-month {
+        padding: 15px 105px;
+    }
+    
+    .plans .premium-plan .per50-month .dollar50 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+        
+    .plans .button3 {
+        padding: 15px 105px;
+    }
+    
+    .plans .button3 button {
+        padding: 10px 25px ;
+        font-size: 15px;
+    }
+    /*  */
+
+
+    /* ABOUT SECTION */
+    #about .who-we-are .we-are {
+        margin-top: 30px;
+        padding-bottom: 15px;
+        font-size: 22px;
+    }
+    #about .profiles {
+        flex-direction: column;
+        gap: 40px;
+    }
+    /*  */
+
+
+
+    /* CONTACT SECTION */
+    #contact .contact-us-line .contact-us {
+        margin-top: 32px;
+        font-size: 22px;
+    }
+    /*  */
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+    /* HEADER SECTION */
+    #nav-bar header {
+        background-color: #eeeeee;
+        width: 100%;
+        height: 31px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: fixed;
+        z-index: 99;
+    }
+    
+    #nav-bar header ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #nav-bar header ul li {
+        font-size: 80%;
+        list-style: none;
+        display: flex;
+    }
+    
+    #nav-bar header ul li a {
+        color: black;
+        text-decoration: none;
+        padding: 7px 6.3vw;
+    }
+    
+    #nav-bar header ul li a:hover {
+         background-color: #ccc;
+         cursor: pointer;
+    }
+    /*  */
+
+
+    /* HOME SECTION */
+    .slide-bar {
+        width: 80%;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        margin: -3px 10% 0px 10%;
+    }
+    
+    #home .slide-bar .left-right-button{
+        font-size: 15px;
+        gap: 89%;
+    }
+    /*  */
+}
